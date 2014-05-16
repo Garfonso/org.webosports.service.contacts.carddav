@@ -1,0 +1,27 @@
+Foreign code in files and where that came from:
+
+Based on SDK Code (most of it went through a lot of changes):
+account\account-template.json
+account-enyo\account-template.json
+app-enyo\source\CrossAppTraget.js
+app-enyo\index.html
+service\kinds.js
+service\assistants\checkCredentialsAssistant.js
+service\assistants\serviceassistant.js
+service\assistants\syncassistant.js
+service\utils\keymanager.js
+
+Based on code from mojosyncframework (open webos):
+service\assistants\oncreateassitant.js
+service\assistants\syncassistant.js (service.complete)
+
+phpjs.org (MIT):
+service\utils\endcodingSuff.js (quoted_printable_decode/encode)
+
+Garfonso/SyncMLClient (MIT):
+app\account-setup-assistant.js
+service\utils\iCal.js
+service\utils\vCard.js
+
+inspired by some stackoverflow discussion??... might also be this here: https://gist.github.com/Marak/815609:
+service\utils\endcodingSuff.js (Base64 stuff)
